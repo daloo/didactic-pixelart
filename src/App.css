@@ -32,3 +32,43 @@ body {
   padding: 10px;
   box-shadow: 10px 10px 50px 0px darkgray;
 }
+
+.done {
+  /* color: lightgray; */
+  text-decoration-line: line-through;
+}
+.done,
+.undone {
+  padding: 10px;
+  margin: 5px;
+  background-color: lightgoldenrodyellow;
+  border-radius: 5px;
+}
+
+.done > *,
+.undone > * {
+  margin: 10px;
+}
+
+.filters {
+  text-align: center;
+}
+
+.filter {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.removetodo {
+  color: lightgray;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.removetodo:hover {
+  color: black;
+  text-decoration: underline;
+  transition: 0.5s;
+}
